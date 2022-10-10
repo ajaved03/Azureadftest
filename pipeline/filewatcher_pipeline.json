@@ -6,7 +6,11 @@
 				"name": "Fale",
 				"type": "Fail",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"message": "This pipeline will fail",
+					"errorCode": "-99999"
+				}
 			}
 		],
 		"annotations": []
